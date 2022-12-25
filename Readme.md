@@ -57,4 +57,4 @@ This is because the frequency offset will vary and fluctuate.
 I'm making a BPSK receiver with SDR and Python, but I didn't know how to find good parameters for the Costas loop.
 Therefore, I decided to plot the lock-in time and constellation for various parameters and select a value that seems good.
 
-The PySDR documentation (https://pysdr.org/content/rds.html) was very helpful. appreciate.
+The PySDR documentation (https://pysdr.org/content/rds.html) was very helpful. I appreciate it.
