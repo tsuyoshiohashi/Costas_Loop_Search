@@ -19,8 +19,6 @@ After displaying the spectrum for signal confirmation, the symbol-synchronized c
 
 Although it is circular, it is because the frequency is slightly shifted.
 
-![aftersymbolsync](/image/after_symbolsync.png)
-
 After that, carrier recovery is performed by the Costas loop. There are two parameters, alpha and beta, but each of them is changed in 5 ways, calculated, and the results are displayed. It will take some time.
 The first plot is the frequency offset. Check the speed until synchronization and the magnitude of jitter at steady state.
 The first 3000 symbols are shown for clarity.
@@ -52,7 +50,7 @@ This is because the frequency offset will vary and fluctuate.
 
 # background
 
-I'm making a BPSK receiver with SDR, but I didn't know how to find good parameters for the Costas loop.
+I'm making a BPSK receiver with SDR and Python, but I didn't know how to find good parameters for the Costas loop.
 Therefore, I decided to plot the lock-in time and constellation for various parameters and select a value that seems good.
 
 The PySDR documentation (https://pysdr.org/content/rds.html) was very helpful. appreciate.

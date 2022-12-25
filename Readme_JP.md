@@ -19,8 +19,6 @@ $ python costas_loop_search.py iqfile_name
 
 円形になっていますが周波数が微妙にずれているためです．
 
-![aftersymbolsync](/image/after_symbolsync.png)
-
 その後にコスタスループによるキャリアリカバリが行われます．alphaとbetaの２つのパラメータがありますがそれぞれ５通りに変化させて計算して結果を表示します．しばらく時間がかかるでしょう．
 最初のプロットは周波数オフセットです．同期するまでの速さと定常時のジッターの大きさを見ます．
 見やすくするために最初の３０００シンボルについて表示しています．
@@ -54,4 +52,4 @@ $ python costas_loop_search.py iqfile_name
 私はSDRやPythonでBPSK受信機を作っていますがコスタスループの良いパラメータの求め方が分かりませんでした．
 そこで色々なパラメータについてロックインタイムやコンスタレーションをプロットして良さそうな値を選ぶことにしました．
 
-PySDRのドキュメント（https://pysdr.org/content/rds.html）はたいへん役にたちました．感謝します．
+PySDRのドキュメント（https://pysdr.org/content/rds.html　）　はたいへん役にたちました．感謝します．
