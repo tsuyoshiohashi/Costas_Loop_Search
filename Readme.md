@@ -49,6 +49,8 @@ The frequency offset and constellation demodulated by the input parameters are d
 There is a list of alpha and beta candidates in the program if you want to search by more parameters.
 If you rewrite this, it will plot with the new parameters.
 
+Whether to emphasize lock-in time or constellation clarity depends on the project.
+
 When determining the parameters for an actual receiver, it is necessary to check several IQ files.
 This is because the frequency offset will vary and fluctuate.
 
